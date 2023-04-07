@@ -5,8 +5,86 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #FCFBDB;
+}
+
+h1{
+    margin-bottom: 0%;
+}
+
+h2{
+    margin-top: 1%;
+    margin-bottom: 0.3%;
+    font-weight: lighter;
+}
+
+h3{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-weight: lighter;
+    font-size: 11px;
+    color : #FCFBDB;
+
 }
 
 button {
     width: 200px;
+    height: 50px;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    background-image: linear-gradient(#F5F5F8, #F5F5F8), linear-gradient(to right, #fbfcb9be, #ffcdf3aa, #65d3ffaa);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    margin: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 0%;
+}
+
+#reviewSeries{
+    width: 300px;
+    height: 230px;
+    background-color: #CDC8E6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+
+#reviewTitle{
+    text-align: left;
+    width: 100%;
+    padding-top: 7px;
+    padding-left: 30px;
+    font-weight: bold;
+}
+
+#excelSeries{
+    width: 300px;
+    height: 170px;
+    background-color: #C1ECD5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+
+#excelTitle{
+    text-align: left;
+    width: 100%;
+    padding-top: 7px;
+    padding-left: 30px;
+    font-weight: bold;
+}
+
+#series{
+    display: inline-block;
+    width: 250px;
+    height: 40px;
+    background-color: #F5F5F8;
+    text-align: center;
+    line-height: 36px;
+    border-radius: 10px;
 }
